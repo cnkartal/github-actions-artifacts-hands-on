@@ -25,12 +25,12 @@ jobs:
     steps:
       - uses: actions/download-artifact@v4
         with:
-          name: my-artifact
+          name: hello-artifact
           path: ./artifacts
 
       - name: show content
         run: cat ./artifacts/hello.txt
 
-        
+
 
 
